@@ -5,6 +5,10 @@ This repository is an exploration of basic deep RL algorithms. DQN and simple ex
 
 #### First application: Unity Banana environment.
 
+The goal of the agent is to collect yellow bananas (rewarded +1) and avoid blue bananas (rewarded -1), by using simple navigation actions (4 actions available, forward, backward, turn left, turn right). The state space is described through a 37-dimensional vector that contains a description of the agent location, speed and a ray-based representation of the current objects in the envorment. 
+
+The envorment is solved when the agent acheives a score of 13 or more averaged over 100 consequtive episodes. 
+
 To run the enviornment locally a few required packages are necessary.
 
 1) Udacity provides [this github repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) with many of the dependencies required to run the environment. Follow the instructions in the readme.md file under thea heading 'dependencies' to clone a copy and install the required packages. 
