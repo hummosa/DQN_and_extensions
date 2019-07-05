@@ -16,6 +16,9 @@ To run the enviornment locally a few required packages are necessary.
 
 3) For hyperparameters optimization, 
 
+4) To run the enviroment locally additional Unity packages are required as detailed here. 
+    * **Note:** it is also important to run 'pip instal unityagents' which is not mentioned in the instructions.
+    
 In the jupyter notebook 'Navigation.ipynb', the agent is trained and tested on a simplified ray-based state description.
 
 Initiale experimentation with an agent trained from pixels can be found in the notebook 'Navigation_from_pixels.ipynob'.
